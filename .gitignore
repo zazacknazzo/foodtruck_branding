@@ -1,0 +1,21 @@
+# Dependencies and generated output
+/node_modules/
+/.next/
+/out/
+/coverage/
+*.tsbuildinfo
+/next-env.d.ts
+
+# Local environment and credentials
+.env*
+!.env.example
+*.pem
+*.key
+
+# Preserved local third-party skills, not vendored
+/.agents/skills/
+
+# Local tools and logs
+/.vercel/
+*.log
+.DS_Store
